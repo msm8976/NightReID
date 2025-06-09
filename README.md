@@ -1,6 +1,7 @@
 <h1 align="center">NightReID: A Large-Scale Nighttime Person Re-Identification Benchmark</h1>
 <h3 align="center">Yuxuan Zhao, Weijian Ruan, He Li, Mang Ye</h3>
 <h3 align="center">AAAI 2025 (Oral)</h3>
+<p align="center"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/33142">Paper</a>, <a href="Appendix.pdf">Appendix</a>, <a href="https://drive.google.com/drive/folders/1i8MqrxvA3NWoyVHtRyY25152iZUU7TAJ?usp=sharing">Dataset</a>, <a href="https://marswhu.github.io/">MARS Lab</a></p>
 
 ![Poster](res/poster.png)
 
@@ -9,6 +10,8 @@ Welcome to the official repository of our paper **"NightReID: A Large-Scale Nigh
 This work contributes **NightReID**, a large-scale, real-world nighttime Re-ID dataset collected from RGB cameras, and proposes a new **EDA** (Enhancement, Denoising, and Alignment) framework that significantly improves Re-ID in challenging nighttime conditions.
 
 ## News
+
+- **2025-06**: We had a poster presentation on [VALSE 2025](https://valser.org/2025/#/poster).
 
 - **2025-02**: We released the code and dataset for NightReID.
 
@@ -75,7 +78,7 @@ Both modules can be seamlessly integrated into existing Re-ID pipelines. Please 
 |     [**PFD-Net**](https://github.com/WangTaoAs/PFD_Net)      |    53.6    |   39.4   |    58.7    |   44.5    |    44.8     |   31.9   |    48.0     |   34.9    |     3.9      |     4.2      |
 | [**DC-Former**](https://github.com/alipay/Diverse-and-Compact-Transformer) |    38.5    |   26.6   |    43.0    |   31.0    |    29.4     |   20.5   |    31.7     |   23.0    |     8.5      |     5.6      |
 |    [**CLIP-ReID**](https://github.com/Syliz517/CLIP-ReID)    |    56.1    |   43.0   |    61.3    |   48.7    |    49.3     |   35.9   |    52.5     |   39.4    |    17..0     |     8.1      |
-|                           **EDA**                            |  **67.6**  | **52.3** |  **72.1**  | **57.6**  |  **60.1**   | **44.6** |  **63.3**   |  **48**   |   **23.8**   |   **11.6**   |
+|                        **EDA (Ours)**                        |  **67.6**  | **52.3** |  **72.1**  | **57.6**  |  **60.1**   | **44.6** |  **63.3**   |  **48**   |   **23.8**   |   **11.6**   |
 
 ### Nighttime RGB Re-ID
 
@@ -84,7 +87,7 @@ Both modules can be seamlessly integrated into existing Re-ID pipelines. Please 
 |                                                |   **Rank-1**   |    **mAP**     |   **Rank-1**   |    **mAP**     |
 |   [**IDF**](https://github.com/Alexadlu/IDF)   |   65.6(+0.6)   |   50.7(-0.1)   |   17.2(+1.2)   |   9.2(+0.8)    |
 | [**CENet**](https://github.com/Alexadlu/CENet) |       -        |       -        |   19.2(+3.2)   |   9.5(+1.1)    |
-|                    **EDA**                     | **67.6(+2.6)** | **52.3(+1.5)** | **23.8(+3.8)** | **11.6(+2.1)** |
+|                 **EDA (Ours)**                 | **67.6(+2.6)** | **52.3(+1.5)** | **23.8(+3.8)** | **11.6(+2.1)** |
 
 ## Citation
 
@@ -95,7 +98,10 @@ If you find NightReID helpful in your research, please consider citing:
   title     = {NightReID: A Large-Scale Nighttime Person Re-Identification Benchmark},
   author    = {Zhao, Yuxuan and Ruan, Weijian and Li, He and Ye, Mang},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year      = {2025},
+  volume    = {39},
+  number    = {10},
+  pages     = {10519--10527},
+  year      = {2025}
 }
 ```
 
